@@ -6,7 +6,7 @@ namespace EmployeeManagementWeb.Components.Pages
     public class EmployeeListBase: ComponentBase
     {
         //public IEnumerable<Employee> Employees { get; set; } = Enumerable.Empty<Employee>();
-        public IEnumerable<Employee> Employees { get; set; }
+        public IEnumerable<Employee>? Employees { get; set; }
 
         protected override async Task OnInitializedAsync()
         {
